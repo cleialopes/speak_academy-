@@ -1,0 +1,241 @@
+body { /*aqui empieza pagina de cursos*/
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilo común para las secciones */
+.intro_index {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+}
+
+/* Sección de introducción */
+.intro-section {
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    position: relative; /* Establece la posición relativa para que el logo se posicione en relación a este contenedor */
+    padding: 20px; /* Ajusta si necesitas espacio interno adicional */
+}
+
+.intro-section h2 {
+    text-align: center;
+}
+
+.intro-section h1,
+.about-us-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.img_logo1 {
+    position: absolute;
+    top: 0; /* Posiciona la imagen en la parte superior */
+    left: 0; /* Posiciona la imagen en la esquina izquierda */
+    max-width: 100px; /* Tamaño máximo de la imagen */
+    margin: 10px; /* Espaciado alrededor de la imagen */
+}
+.intro-section p,
+.about-us-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.cta-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+.instal {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.simple-carousel {
+    width: 70%;
+    aspect-ratio: 16 / 9; /* Formato rectangular */
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slides {
+    display: flex;
+    width: 300%; /* 100% * número de imágenes */
+    animation: slide 20s infinite;
+}
+
+.slides img {
+    width: 33%;
+    height: auto;
+    border-radius: 20px;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.header p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.course {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-image {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.course-image img.flag {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.course h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}/*aqui termina la pagina de cursos*/
+
+
+footer { /*aqui empieza el footer*/
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+.footer-section p, 
+.footer-section ul {
+    margin: 5px 0;
+    list-style: none;
+    padding: 0;
+}
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.footer-section a:hover {
+    text-decoration: underline;
+}
+.footer-copyright {
+    margin-top: 20px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}  /*aqui termina el footer*/
+
+.container-profesor { /*aqui empieza la pagina profesor*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.profesor {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 23%;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+.profesor img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.profesor h3 {
+    margin: 10px 0;
+    color: #4CAF50;
+}
+.profesor p {
+    margin: 5px 0;
+    font-size: 14px;
+} /*aqui termina la pagina profesor*/
+
+
