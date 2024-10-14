@@ -5,126 +5,26 @@ body { /*aqui empieza pagina de cursos*/
     padding: 0;
     line-height: 1.6;
 }
-
-/* Estilo común para las secciones */
-.intro_index {
-    background-color: #f5f5f5;
-    padding: 2rem;
-    text-align: center;
-    border-radius: 15px;
-    margin-bottom: 1.5rem;
-}
-
-/* Sección de introducción */
-.intro-section {
-    background-color: #f5f5f5;
-    border-radius: 15px;
-    position: relative; /* Establece la posición relativa para que el logo se posicione en relación a este contenedor */
-    padding: 20px; /* Ajusta si necesitas espacio interno adicional */
-}
-
-.intro-section h2 {
-    text-align: center;
-}
-
-.intro-section h1,
-.about-us-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-.img_logo1 {
-    position: absolute;
-    top: 0; /* Posiciona la imagen en la parte superior */
-    left: 0; /* Posiciona la imagen en la esquina izquierda */
-    max-width: 100px; /* Tamaño máximo de la imagen */
-    margin: 10px; /* Espaciado alrededor de la imagen */
-}
-.intro-section p,
-.about-us-section p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-}
-
-.cta-button-container {
-    display: flex;
-    justify-content: center;
-}
-
-.cta-button {
-    background-color: #007bff;
-    color: white;
-    padding: 0.8rem 2rem;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    display: inline-block;
-}
-
-.cta-button:hover {
-    background-color: #0056b3;
-}
-.instal {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-}
-
-.simple-carousel {
-    width: 70%;
-    aspect-ratio: 16 / 9; /* Formato rectangular */
-    overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.slides {
-    display: flex;
-    width: 300%; /* 100% * número de imágenes */
-    animation: slide 20s infinite;
-}
-
-.slides img {
-    width: 33%;
-    height: auto;
-    border-radius: 20px;
-}
-
-@keyframes slide {
-    0% { transform: translateX(0%); }
-    33% { transform: translateX(-100%); }
-    66% { transform: translateX(-200%); }
-    100% { transform: translateX(0%); }
-}
-
-.header {
+.texcurso, .texprofesor {
     text-align: center;
     margin-bottom: 40px;
 }
-
-.header h1 {
+.texcurso h1, .texprofesor h1 {
     font-size: 32px;
     color: #333;
 }
-
 .header p {
     font-size: 18px;
     color: #555;
     margin: 10px 0;
 }
-
-.courses {
+.container-curso, .container-profesor {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
 }
-
-.course {
+.curso, .profesor {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -135,8 +35,7 @@ body { /*aqui empieza pagina de cursos*/
     flex-direction: column;
     align-items: center;
 }
-
-.course-image {
+.curso img, .profesor img {
     width: 100px;
     height: 100px;
     display: flex;
@@ -147,26 +46,148 @@ body { /*aqui empieza pagina de cursos*/
     border-radius: 50%;
     overflow: hidden;
 }
-
-.course-image img.flag {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.course h3 {
+.curso h3, .profesor h3 {
     font-size: 20px;
     color: #333;
     margin-bottom: 10px;
 }
-
-.course p {
+.curso p, .profesor p {
     font-size: 16px;
     color: #555;
     text-align: center;
 }/*aqui termina la pagina de cursos*/
 
+.header-box {  /* aqui empieza header */
+    margin: -8px -8px 0 -8px;
+}
+.hb-line1 { /* Первая линия */
+    background-color: rgb(43, 43, 105); 
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: large;
+    padding: 0 200px;
+}
+.hb-ulcontactos>li {
+    display: inline-block;
+    padding-right: 50px;
+}
+.hb-ulcontactos>li>span {
+    font-size: x-small;
+} 
+.hb-line2 { /* Вторая линия */
+    background-color: rgb(228, 223, 223);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+.hb-nav {
+    flex-grow: 1;
+}
+.hbnav-ul {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.hbnav-ul>li {
+    display: inline-block;
+    padding-left: 10px;
+}
+.hbnav-a {
+    text-decoration-line: none;
+    color: rgb(43, 43, 105);
+} /* aqui termina header */
 
+/*aqui enpieza el index*/
+.intro_index { /* Estilo común para las secciones */
+    background-color: #f5f5f5;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+}
+.cta-button-container {
+    display: flex;
+    justify-content: center;
+}
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+.instal { /*aqui empieza el carrusel de totos*/
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.simple-carousel {
+    width: 70%;
+    aspect-ratio: 16 / 9; /* Formato rectangular */
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.slides {
+    display: flex;
+    width: 300%; /* 100% * número de imágenes */
+    animation: slide 40s infinite;
+}
+.slides img {
+    width: 33%;
+    height: auto;
+    border-radius: 20px;
+}
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+} /*aqui termina carrusel de fotos*/
+ 
+.benefits-section { /* Sección de beneficios */
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #fff;
+}
+.benefit {
+    text-align: center;
+    width: 30%;
+}
+.benefit img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+.benefit h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.about-us-section { /* Sección de información sobre nosotros */
+    background-color: #f5f5f5;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 15px;
+}
+.about-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.about-detail {
+    text-align: center;
+    width: 30%;
+}
+.about-detail img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
 footer { /*aqui empieza el footer*/
     background-color: #2c3e50;
     color: white;
@@ -206,36 +227,3 @@ footer { /*aqui empieza el footer*/
     border-top: 1px solid white;
     padding-top: 10px;
 }  /*aqui termina el footer*/
-
-.container-profesor { /*aqui empieza la pagina profesor*/
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 20px;
-}
-.profesor {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: 23%;
-    margin: 10px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
-}
-.profesor img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-.profesor h3 {
-    margin: 10px 0;
-    color: #4CAF50;
-}
-.profesor p {
-    margin: 5px 0;
-    font-size: 14px;
-} /*aqui termina la pagina profesor*/
-
-
