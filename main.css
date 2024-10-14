@@ -17,7 +17,7 @@ body { /*aqui empieza pagina de cursos*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px;
+    gap: 50px;
 }
 .curso, .profesor {
     background-color: #fff;
