@@ -33,6 +33,11 @@ body { /* Estilo general */
 .hb-nav {
     flex-grow: 1;
 }
+.hb-line2 img {
+    width:91px; 
+    height: 91px; 
+    border-radius: 10px; 
+}
 .hbnav-ul {
     margin-left: 50px;
     display: flex;
