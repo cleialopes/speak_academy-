@@ -1,1 +1,0 @@
-# speak_academy-eskirrakasko

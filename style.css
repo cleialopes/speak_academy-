@@ -1,5 +1,4 @@
-/* Estilo general */
-body {
+body { /* Estilo general */ 
     font-family: 'Roboto', sans-serif;
     background-color: #f9f9f9;
     margin: 0;
@@ -7,26 +6,25 @@ body {
     line-height: 1.6;
 }
 
-/* Estilo del header */
-.header-box {
+.header-box {  /* aqui empieza header */
     margin: -8px -8px 0 -8px;
 }
-.hb-line1 {
-    background-color: rgb(43, 43, 105);
+.hb-line1 { /*primeira linea */
+    background-color: rgb(43, 43, 105); 
     display: flex;
     justify-content: space-between;
     color: white;
     font-size: large;
     padding: 0 200px;
 }
-.hb-ulcontactos > li {
+.hb-ulcontactos>li {
     display: inline-block;
     padding-right: 50px;
 }
-.hb-ulcontactos > li > span {
+.hb-ulcontactos>li>span {
     font-size: x-small;
-}
-.hb-line2 {
+} 
+.hb-line2 { /* segunda linea */
     background-color: rgb(228, 223, 223);
     display: flex;
     justify-content: space-between;
@@ -40,17 +38,16 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.hbnav-ul > li {
+.hbnav-ul>li {
     display: inline-block;
     padding-left: 10px;
 }
 .hbnav-a {
     text-decoration-line: none;
     color: rgb(43, 43, 105);
-}
+} /* aqui termina header */
 
-/* Estilos específicos para la página de Precios */
-h1, h2 {
+h1, h2 { /*qui empieza pagina de precios*/
     text-align: center;
     color: #2c3e50;
     margin-top: 20px;
@@ -138,7 +135,6 @@ h1, h2 {
     font-weight: bold;
 }
 
-/* Estilo de los enlaces */
 a {
     color: #007bff;
     text-decoration: none;
@@ -146,15 +142,21 @@ a {
 
 a:hover {
     text-decoration: underline;
+<<<<<<< HEAD
 }
 nav {
+=======
+} /*qui termina pagina de precios*/
+
+nav { /*aqui empieza la pagina de reseñas*/
+>>>>>>> 0b1e50d94c1c1804969c88578d07f16e2e837926
     margin: 10px 0;
     text-align: center;
 }
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #4CAF50;
+    color: #2c3e50;
     font-weight: bold;
 }
 section {
@@ -164,7 +166,7 @@ section {
     border-radius: 10px;
 }
 h2 {
-    color: #4CAF50;
+    color: #2c3e50;
 }
 .course {
     border-bottom: 1px solid #ddd;
@@ -196,7 +198,7 @@ form input, form select, form textarea {
     border-radius: 5px;
 }
 form button {
-    background-color: #4CAF50;
+    background-color: #2c3e50;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -204,10 +206,11 @@ form button {
     cursor: pointer;
 }
 form button:hover {
-    background-color: #45a049;
-}
-/* Estilo del footer */
-footer {
+    background-color:#2c3e50;
+} /*aqui empieza la pagina de reseñas*/
+
+
+footer { /* aqui empieza el footer */
     background-color: #2c3e50;
     color: white;
     padding: 20px 0;
@@ -245,4 +248,4 @@ footer {
     margin-top: 20px;
     border-top: 1px solid white;
     padding-top: 10px;
-}
+} /* aqui termina el footer */

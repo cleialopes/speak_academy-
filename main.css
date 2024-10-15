@@ -1,4 +1,4 @@
-body { /*aqui empieza pagina de cursos*/
+body { /* Estilo general */ 
     font-family: 'Roboto', sans-serif;
     background-color: #f9f9f9;
     margin: 0;
@@ -19,6 +19,7 @@ body { /*aqui empieza pagina de cursos*/
     justify-content: space-around;
     gap: 50px;
     padding-inline: 200px;
+    margin: 30px 0;
 }
 .curso, .profesor {
     background-color: #fff;
@@ -95,7 +96,7 @@ body { /*aqui empieza pagina de cursos*/
 } /* aqui termina header */
 
 /*aqui enpieza el index*/
-.intro_index { /* Estilo común para las secciones */
+.intro_index { 
     background-color: #f5f5f5;
     padding: 2rem;
     text-align: center;
