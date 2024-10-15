@@ -142,17 +142,13 @@ a {
 
 a:hover {
     text-decoration: underline;
-<<<<<<< HEAD
-}
-nav {
-=======
 } /*qui termina pagina de precios*/
 
 nav { /*aqui empieza la pagina de reseñas*/
->>>>>>> 0b1e50d94c1c1804969c88578d07f16e2e837926
     margin: 10px 0;
     text-align: center;
 }
+
 nav a {
     margin: 0 15px;
     text-decoration: none;
