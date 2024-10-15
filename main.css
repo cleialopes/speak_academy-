@@ -5,7 +5,7 @@ body { /*aqui empieza pagina de cursos*/
     padding: 0;
     line-height: 1.6;
 }
-.texcurso, .texprofesor {
+.texcurso, .texprofesor { /*aqui empieza pagina de cursos y profesores*/
     text-align: center;
     margin-bottom: 40px;
 }
@@ -13,7 +13,7 @@ body { /*aqui empieza pagina de cursos*/
     font-size: 32px;
     color: #333;
 }
-.container-curso, .container-profesor { /*aqui empieza pagina de cursos y profesores*/
+.container-curso, .container-profesor { 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -56,7 +56,7 @@ body { /*aqui empieza pagina de cursos*/
 .header-box {  /* aqui empieza header */
     margin: -8px -8px 0 -8px;
 }
-.hb-line1 { /* Первая линия */
+.hb-line1 { /*primeira linea */
     background-color: rgb(43, 43, 105); 
     display: flex;
     justify-content: space-between;
@@ -71,7 +71,7 @@ body { /*aqui empieza pagina de cursos*/
 .hb-ulcontactos>li>span {
     font-size: x-small;
 } 
-.hb-line2 { /* Вторая линия */
+.hb-line2 { /* segunda linea */
     background-color: rgb(228, 223, 223);
     display: flex;
     justify-content: space-between;
@@ -178,7 +178,7 @@ body { /*aqui empieza pagina de cursos*/
 }
 .about-detail {
     text-align: center;
-    width: 30%;
+    width: 30%; /*aqui termina el index*/
 }
 footer { /*aqui empieza el footer*/
     background-color: #2c3e50;
