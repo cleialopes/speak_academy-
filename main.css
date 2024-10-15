@@ -134,7 +134,7 @@ body { /* Estilo general */
 .slides {
     display: flex;
     width: 300%; /* 100% * número de imágenes */
-    animation: slide 40s infinite;
+    animation: slide 60s infinite;
 }
 .slides img {
     width: 33%;
