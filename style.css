@@ -239,6 +239,10 @@ footer { /* aqui empieza el footer */
     flex: 1;
     min-width: 200px;
 }
+.footer-section img {
+
+    width: 35px;
+}
 .footer-section h3 {
     margin-bottom: 10px;
 }
