@@ -10,8 +10,9 @@ body { /* Estilo general */
     margin-bottom: 40px;
 }
 .texcurso h1, .texprofesor h1 {
+    margin-top: 36px;
     font-size: 32px;
-    color: #333;
+    /* color: #333; */
 }
 .container-curso, .container-profesor { 
     display: flex;

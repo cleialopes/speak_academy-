@@ -63,9 +63,14 @@ body { /* Estilo general */
     margin: 0;
 } /* aqui termina header */
 
+.title-h1 {
+    margin-top: 36px;
+    font-size: 32px;
+}
+
 h1, h2 { /*qui empieza pagina de precios*/
     text-align: center;
-    color: #2c3e50;
+    /* color: #2c3e50; */
     margin-top: 20px;
     font-size: 28px;
 }
