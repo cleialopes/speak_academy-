@@ -33,6 +33,10 @@ body { /* Estilo general */
 .hb-ulcontactos>li>span {
     font-size: x-small;
 } 
+.email-text {
+    color: white;
+    text-decoration-line: none;
+}
 .hb-line2 { /* segunda linea */
     background-color: rgb(228, 223, 223);
     display: flex;

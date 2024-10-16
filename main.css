@@ -92,6 +92,10 @@ body { /* Estilo general */
 .hb-nav {
     flex-grow: 1;
 }
+.email-text {
+    color: white;
+    text-decoration-line: none;
+}
 .hb-line2 img {
     width:91px; 
     height: 91px; 
