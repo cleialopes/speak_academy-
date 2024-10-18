@@ -20,7 +20,7 @@ body {
 }
 
 /* Ajustar las imágenes */
-.slides {
+
 
 .texcurso,
 .texprofesor {
@@ -126,18 +126,7 @@ body {
     padding-right: 30px;
 }
 
-<<<<<<< HEAD
 .hb-contactos>p>span {
-=======
-
-.hb-ulcontactos>li {
-    display: inline-block;
-    padding-right: 50px;
-}
-
-
-.hb-ulcontactos>li>span {
->>>>>>> 112c396c5862eaceff52219135300b573440af30
     font-size: x-small;
 }
 
