@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,6 +9,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
+
 <body>
     <header class="header-box"> <!--aqui empieza el header-->
         <!-- primera linea -->
@@ -24,11 +26,21 @@
             <a href="index.html"><img src="img/img_logo2.png" alt="logo"></a>
             <nav class="hb-nav">
                 <ul class="hbnav-ul">
-                    <li><h3><a class="hbnav-a" href="index.html">SOBRE LA ESCUELA</a></h3></li>
-                    <li><h3><a class="hbnav-a" href="cursos.html">CURSOS</a></h3></li>
-                    <li><h3><a class="hbnav-a" href="profesores.html">PROFESORES</a></h3></li>
-                    <li><h3><a class="hbnav-a" href="precios.html">PRECIO</a></h3></li>
-                    <li><h3><a class="hbnav-a" href="resenas.html">RESEÑAS</a></h3></li>
+                    <li>
+                        <h3><a class="hbnav-a" href="index.html">SOBRE LA ESCUELA</a></h3>
+                    </li>
+                    <li>
+                        <h3><a class="hbnav-a" href="cursos.html">CURSOS</a></h3>
+                    </li>
+                    <li>
+                        <h3><a class="hbnav-a" href="profesores.html">PROFESORES</a></h3>
+                    </li>
+                    <li>
+                        <h3><a class="hbnav-a" href="precios.html">PRECIO</a></h3>
+                    </li>
+                    <li>
+                        <h3><a class="hbnav-a" href="resenas.html">RESEÑAS</a></h3>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -44,22 +56,27 @@
             <a href="#" class="cta-button">Empieza Ahora</a>
         </div>
     </div>
+
+    <!-- Carrusel con movimiento automático y zoom -->
     <div class="instal">
         <div class="simple-carousel">
             <div class="slides">
-                <img src="img/1recepcion.jpg" alt="Imagen 1">
-                <img src="img/2fachada.jpg" alt="Imagen 2">
-                <img src="img/3alumnos.jpg" alt="Imagen 3">
-                <img src="img/4aula.webp" alt="Imagen 4">
-                <img src="img/5clase.jpg" alt="Imagen 5">
-                <img src="img/1recepcion.jpg" alt="Imagen 1">
-                <img src="img/2fachada.jpg" alt="Imagen 2">
-                <img src="img/3alumnos.jpg" alt="Imagen 3">
-                <img src="img/4aula.webp" alt="Imagen 4">
-                <img src="img/5clase.jpg" alt="Imagen 5">
+                <img src="img/fachada.webp" alt="fachada de la escuela">
+                <img src="img/biblioteca.webp" alt="biblioteca escuela">
+                <img src="img/alumno_mac.webp" alt="alumno con mac">
+                <img src="img/estudiantes.webp" alt="estudiante de academy">
+                <img src="img/sala_conferencias.webp" alt="sala de conferencias">
             </div>
-        </div>
-    </div> 
+            <!-- Logo como marca de agua -->
+            <img src="img/img_logo2.png" alt="Logo de la escuela" class="watermark-logo">
+            <!-- Botones de flechas -->
+            <button class="carousel-prev">❮</button>
+            <button class="carousel-next">❯</button>
+        </div>  
+    </div>
+    
+
+
     <section class="benefits-section">
         <div class="benefit">
             <img src="img/img_director_de estudios.png" alt="Director de estudios">
@@ -77,6 +94,7 @@
             <p>Tu contacto directo para resolver todas tus dudas.</p>
         </div>
     </section>
+
     <section>
         <div class="about-details">
             <div class="about-detail">
@@ -95,18 +113,17 @@
                 <p>Más de 30 años preparando a estudiantes para exámenes oficiales.</p>
             </div>
         </div>
-    </section> <!--aqui termina el index-->
+    </section>
+
     <footer>
         <div class="footer-container">
-            <!-- Información de contacto -->
             <div class="footer-section">
                 <h3>Contáctanos</h3>
                 <p>Teléfono: +123 456 789</p>
                 <p>Email: contacto@academy.com</p>
                 <p>Dirección: Calle 123, Ciudad, País</p>
             </div>
-    
-            <!-- Navegación rápida -->
+
             <div class="footer-section">
                 <h3>Navegación</h3>
                 <ul>
@@ -118,19 +135,41 @@
                 </ul>
             </div>
 
-            <!-- Redes sociales -->
             <div class="footer-section">
                 <h3>Síguenos</h3>
-                <a href="#"><img src="img/icono_facebook.png" alt="icono facebbok"></a>
-                <a href="#"><img src="img/icono_instagram.png" alt="icono de instagram"></a>
-                <a href="#"><img src="img/icono_x.png" alt="icono de x"></a>
+                <a href="#"><img src="img/icono_facebook.png" alt="icono facebook"></a>
+                <a href="#"><img src="img/icono_instagram.png" alt="icono instagram"></a>
+                <a href="#"><img src="img/icono_x.png" alt="icono x"></a>
             </div>
         </div>
-        
-        <!-- Derechos de autor -->
+
         <div class="footer-copyright">
             <p>&copy; 2024 Academia de Idiomas. Todos los derechos reservados.</p>
         </div>
     </footer>
+
+    <script>
+        const slides = document.querySelector('.slides');
+        const images = document.querySelectorAll('.slides img');
+        let currentIndex = 0;
+        const totalImages = images.length;
+
+        document.querySelector('.carousel-next').addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % totalImages;
+            updateCarousel();
+        });
+
+        document.querySelector('.carousel-prev').addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+            updateCarousel();
+        });
+
+        function updateCarousel() {
+            const offset = -currentIndex * 100; // Cada imagen ocupa 100% de su contenedor
+            slides.style.transform = `translateX(${offset}%)`;
+        }
+    </script>
+
 </body>
+
 </html>
