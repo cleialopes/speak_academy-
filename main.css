@@ -110,7 +110,7 @@ body {
 .container-profesor {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 100%;
+    /* width: 100%; */
     /* El contenedor de imágenes se ajusta al ancho del carrusel */
 }
 
