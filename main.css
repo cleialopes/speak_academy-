@@ -133,7 +133,7 @@ body {
     text-align: center;
 } /*aqui termina pagina de cursos y profesores*/
 
-.simple-carousel { /* Ajustar el tamaño del carrusel */
+.simple-carousel { /* aqui empieza carrusel */
     width: 70%;
     max-width: 600px;
     margin: 20px auto;
@@ -158,7 +158,7 @@ body {
 
 .slides {
     display: flex;
-    width: 300%; /* 100% * número de imágenes */
+    width: 300%; 
     animation: slide 60s infinite; 
 }
 
@@ -183,7 +183,7 @@ body {
     }
 } 
 
-.carousel-prev, .carousel-next { /* Estilos para las flechas de navegación */
+.carousel-prev, .carousel-next { 
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
