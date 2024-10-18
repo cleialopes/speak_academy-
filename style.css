@@ -32,16 +32,20 @@ body {
     vertical-align: bottom;
 }
 
-.hb-ulcontactos {
+.hb-contactos {
     padding-left: 0;
+    display: flex;
+}
+.iconos {
+    padding: 10px 8px 10px 0;
+}
+.infocont {
+    padding-right: 30px;
 }
 
-.hb-ulcontactos>li {
-    display: inline-block;
-    padding-right: 50px;
-}
 
-.hb-ulcontactos>li>span {
+
+.hb-contactos>p>span {
     font-size: x-small;
 }
 
