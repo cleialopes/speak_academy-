@@ -253,8 +253,7 @@ body {
     width: 30%;
 }
 
-.benefit img,
-.about-detail img {
+.benefit img, .about-detail img {
     max-width: 100px;
     margin-bottom: 1rem;
 }
@@ -310,8 +309,7 @@ footer {  /*aqui empieza el footer*/
     margin-bottom: 10px;
 }
 
-.footer-section p,
-.footer-section ul {
+.footer-section p, .footer-section ul {
     margin: 5px 0;
     list-style: none;
     padding: 0;
