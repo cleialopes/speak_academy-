@@ -306,3 +306,29 @@ footer { /* aqui empieza el footer */
     border-top: 1px solid white;
     padding-top: 10px;
 }/* aqui termina el footer */
+
+section { /* aqui empieza curso de ingles */
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: #333;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #45a049;
+}
+.price {
+    font-size: 1.2em;
+    color: #333;
+} /* aqui termina curso de ingles */
