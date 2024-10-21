@@ -99,6 +99,11 @@ body {
     margin-top: 36px;
     font-size: 32px;
 }
+
+.texprofesor {
+    padding: 0 13px;
+}
+
 .container-curso, .container-profesor { 
     display: flex;
     flex-wrap: wrap;
