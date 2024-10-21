@@ -144,7 +144,14 @@ body {
     color: #555;
     text-align: center;
 } /*aqui termina pagina de cursos y profesores*/
-
+.boton_curso{
+    border: 3px solid;
+    background-color: rgb(101, 229, 233);
+    text-decoration: none;
+}
+.boton_curso:hover {
+    color:red
+}
 .simple-carousel { /* aqui empieza carrusel */
     width: 70%;
     max-width: 600px;
