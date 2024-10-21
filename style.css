@@ -307,20 +307,35 @@ footer { /* aqui empieza el footer */
     padding-top: 10px;
 }/* aqui termina el footer */
 
-section { /* aqui empieza curso de ingles */
-    padding: 20px;
-    margin: 20px auto;
-    background-color: white;
-    width: 80%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.curso-ingles { /* aqui empieza curso de ingles */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    padding-inline: 100px;
+    margin: 30px 0;
 }
-h1, h2 {
-    color: #333;
+.curso-ingles img {
+    border-radius: 100px;
+    width: 175px;
+    height: 175px;
+}
+.ingles {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #0e0a3e;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -328,7 +343,4 @@ h1, h2 {
 .button:hover {
     background-color: #45a049;
 }
-.price {
-    font-size: 1.2em;
-    color: #333;
-} /* aqui termina curso de ingles */
+ /* aqui termina curso de ingles */
