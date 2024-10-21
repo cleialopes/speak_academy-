@@ -318,6 +318,11 @@ footer { /* aqui empieza el footer */
 #curso_detalle{
     background-image: url(img/bandera\ de\ eeuu_inglaterra.webp);
 }
+.texingles {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
 .ingles {
     background-color: #fff;
     border-radius: 8px;
