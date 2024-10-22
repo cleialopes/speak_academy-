@@ -28,6 +28,11 @@ body {
     vertical-align: bottom;
 }
 
+.link-form {
+    color: white;
+    text-decoration: none;
+}
+
 .hb-contactos {
     padding-left: 0;
     display: flex;
