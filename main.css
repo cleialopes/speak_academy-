@@ -1,3 +1,6 @@
+:root{
+    --color-fondo:#f5f5f5;
+}
 body {
     /* Estilo general */
     font-family: 'Roboto', sans-serif;
@@ -228,7 +231,7 @@ body {
 }
 
 .intro_index {
-    background-color: #f5f5f5;
+    background-color: var(--color-fondo);
     padding: 13px;
     text-align: center;
     border-radius: 15px;
@@ -277,7 +280,7 @@ body {
 }
 
 .about-us-section {  /* Sección de información sobre nosotros */
-    background-color: #f5f5f5;
+    background-color: var(--color-fondo);
     padding: 2rem;
     text-align: center;
     border-radius: 15px;
