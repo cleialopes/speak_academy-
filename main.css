@@ -121,7 +121,7 @@ body {
     margin: 30px 0;
 }
 .curso, .profesor {
-    background-color: #fff;
+    background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -138,25 +138,25 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 15px;
-    background-color: #f0f0f0;
+    background-color:white;
     border-radius: 50%;
     overflow: hidden;
 }
 .curso h3, .profesor h3 {
     font-size: 20px;
-    color: #333;
+    color: #2c3e50;
     margin-bottom: 10px;
 }
 .curso p, .profesor p {
     font-size: 16px;
-    color: #555;
+    color: #2c3e50;
     text-align: center;
 } /*aqui termina pagina de cursos y profesores*/
 .boton_curso{
     text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0e0a3e;
+    background-color: #007bff;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -173,7 +173,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     aspect-ratio: 1 / 1; /* Mantener una relación de aspecto 1:1 (cuadrada) */
-    background-color: #f0f0f0; /* Fondo para cuando las imágenes no llenan el espacio */
+    background-color: white; /* Fondo para cuando las imágenes no llenan el espacio */
 }
 
 /* Ajustar las imágenes */
@@ -187,7 +187,7 @@ body {
     width: 100%; /* La imagen se ajusta al ancho del carrusel */
     height: 100%; /* La altura de la imagen se ajusta a la del carrusel */
     object-fit: contain; /* Mostrar toda la imagen sin recortar, ajustándola al espacio disponible */
-    background-color: #fff; /* Fondo blanco detrás de la imagen */
+    background-color: white; /* Fondo blanco detrás de la imagen */
     transition: transform 0.3s ease-in-out;
 }
 
@@ -197,8 +197,7 @@ body {
 }
 
 /* Estilos para las flechas de navegación */
-.carousel-prev,
-.carousel-next {
+.carousel-prev, .carousel-next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -254,14 +253,14 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #45a049;
 }
 
 .benefits-section {  /* Sección de beneficios */
     display: flex;
     justify-content: space-around;
     padding: 2rem;
-    background-color: #fff;
+    background-color: white;
 }
 
 .benefit {
