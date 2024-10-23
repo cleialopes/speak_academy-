@@ -43,6 +43,7 @@ body {
 }
 
 .iconos {
+    height: 45px;
     padding: 10px 8px 10px 0;
     display: inline-block;
 }
