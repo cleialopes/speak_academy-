@@ -117,20 +117,33 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.price-list h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
+.price-option table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.price-option th,
+.price-option td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #eee;
+    font-size: 16px;
+}
+
+.price-option th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.price-option td {
     color: #2c3e50;
 }
 
-.price-list ul li {
-    list-style: none;
-    padding: 0;
-    font-size: 18px;
-    color: #2c3e50;
-    margin-bottom: 10px;
-    padding: 10px 0;
-    border-bottom: 1px solid #eee;
+.price-option tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
 
 .flag-img {
